@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "Bundler",
+        "strict": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true,
+        "verbatimModuleSyntax": true,
+        "paths": {
+            "@internal": ["./src/__internal__"],
+            "@core": ["./src/core"],
+            "@database": ["./src/database"],
+            "@fieldcolumns": ["./src/fieldcolumns"],
+            "@filter": ["./src/filter"],
+            "@flattener": ["./src/flattener"],
+            "@iter": ["./src/iter"],
+            "@unflattener": ["./src/unflattener"]
+        }
+    },
+    "include": ["src", "tests"]
+}
