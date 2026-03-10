@@ -1,6 +1,6 @@
 {
     "name": "@rogonion/js-metadatamodel",
-    "private": true,
+    "private": false,
     "description": "A library designed to manipulate, transform, and query complex data structures using a declarative Metadata Model. It provides tools for flattening/unflattening nested data, filtering, extracting column definitions, and handling database-like operations on in-memory objects.",
     "version": "1.0.0",
     "type": "module",
